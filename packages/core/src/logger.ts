@@ -7,3 +7,4 @@ export const log = (...params: unknown[]) => {
   // eslint-disable-next-line no-console
   console.log(chalk.yellow('Vocab'), ...params);
 };
+console.log(10);

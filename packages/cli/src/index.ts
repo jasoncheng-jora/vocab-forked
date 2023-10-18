@@ -8,6 +8,8 @@ import envCi from 'env-ci';
 
 const { branch } = envCi();
 
+console.log(11);
+
 const branchDefinition = {
   type: 'string',
   describe: 'The Phrase branch to target',

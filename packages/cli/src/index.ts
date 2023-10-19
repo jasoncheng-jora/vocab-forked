@@ -7,7 +7,7 @@ import yargs from 'yargs';
 import envCi from 'env-ci';
 
 const { branch } = envCi();
-
+console.log('yeah')
 const branchDefinition = {
   type: 'string',
   describe: 'The Phrase branch to target',
